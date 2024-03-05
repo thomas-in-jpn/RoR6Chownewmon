@@ -7,7 +7,7 @@ Things you may want to cover:
 
 - トレーニング環境
 
-  - MacbookAir
+  - MacbookAir(Sonoma 14.3.1)
   - git(2.44)
   - ruby3.2.3(rbenv にて導入)
   - rails 6.1.7
