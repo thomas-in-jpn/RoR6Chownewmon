@@ -1,26 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ruby on Rails 6 超入門を使った写経トレーニング用
+(2024 年 8 月には、削除予定)
 
 Things you may want to cover:
 
-- Ruby version
+- トレーニング環境
 
-* 3.2.3
-
-- System dependencies
-
-- Configuration
-
-- Database creation
-
-- Database initialization
-
-- How to run the test suite
-
-- Services (job queues, cache servers, search engines, etc.)
-
-- Deployment instructions
-
-- ...
+  - MacbookAir
+  - git(2.44)
+  - ruby3.2.3(rbenv にて導入)
+  - rails 6.1.7
+  - sqlite3 3.43.2
+  - Visual Studio Code 1.87.0
