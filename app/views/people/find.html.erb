@@ -3,9 +3,9 @@
 <%= form_tag(controller: 'people', action: 'find') do %>
   <div class="form-group">
     <label for="find">Find</label>
-    <%= text_field_tag("find",'', {class:"form-control"}) %>
+    <%= text_field_tag("find","", {class:"form-control"}) %>
   </div>
-  <%= submit_tag("Click", {class: "btn btn-primary") %>
+  <%= submit_tag("Click", {class: "btn btn-primary"}) %>
 <% end %>
 <table class="table">
   <tr>

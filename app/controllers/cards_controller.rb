@@ -30,14 +30,6 @@ class CardsController < ApplicationController
     Card.find(params[:id])
     goback
   end
-
-  def find
-    @msg  = "please type search word..."
-    @people = Array.new
-    if request.post? then
-      @people = Person.where name: params[:find]
-    end
-  end
   
   private
   def card_params

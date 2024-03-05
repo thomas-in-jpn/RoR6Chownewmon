@@ -43,7 +43,8 @@ class PeopleController < ApplicationController
     @msg = 'please type search word...'
     @people = Array.new
     if request.post? then
-      @people = Person.where "age >= ?", params[:find]
+      obj = Person.find params['find']
+      @people.push obj
     end
   end
 
