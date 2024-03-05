@@ -1,0 +1,23 @@
+current directory: /Users/ty/Documents/repo/Ruby/rails6sample/rails6App/vender/bundle/ruby/3.2.0/gems/bootsnap-1.18.3/ext/bootsnap
+/Users/ty/.rbenv/versions/3.2.3/bin/ruby extconf.rb
+checking for fdatasync() in unistd.h... yes
+checking for whether -D_GNU_SOURCE is accepted as CPPFLAGS... yes
+checking for whether -O3 is accepted as CFLAGS... yes
+checking for whether -std=c99 is accepted as CFLAGS... yes
+creating Makefile
+
+current directory: /Users/ty/Documents/repo/Ruby/rails6sample/rails6App/vender/bundle/ruby/3.2.0/gems/bootsnap-1.18.3/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20240304-49583-6oitu8 sitelibdir\=./.gem.20240304-49583-6oitu8 clean
+
+current directory: /Users/ty/Documents/repo/Ruby/rails6sample/rails6App/vender/bundle/ruby/3.2.0/gems/bootsnap-1.18.3/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20240304-49583-6oitu8 sitelibdir\=./.gem.20240304-49583-6oitu8
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+ld: warning: ignoring duplicate libraries: '-lruby.3.2'
+
+current directory: /Users/ty/Documents/repo/Ruby/rails6sample/rails6App/vender/bundle/ruby/3.2.0/gems/bootsnap-1.18.3/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20240304-49583-6oitu8 sitelibdir\=./.gem.20240304-49583-6oitu8 install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20240304-49583-6oitu8/bootsnap
+
+current directory: /Users/ty/Documents/repo/Ruby/rails6sample/rails6App/vender/bundle/ruby/3.2.0/gems/bootsnap-1.18.3/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20240304-49583-6oitu8 sitelibdir\=./.gem.20240304-49583-6oitu8 clean

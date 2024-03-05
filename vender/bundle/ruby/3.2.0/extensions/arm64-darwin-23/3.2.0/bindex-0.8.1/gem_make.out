@@ -1,0 +1,19 @@
+current directory: /Users/ty/Documents/repo/Ruby/rails6sample/rails6App/vender/bundle/ruby/3.2.0/gems/bindex-0.8.1/ext/skiptrace
+/Users/ty/.rbenv/versions/3.2.3/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/ty/Documents/repo/Ruby/rails6sample/rails6App/vender/bundle/ruby/3.2.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20240304-49583-9a3rdm sitelibdir\=./.gem.20240304-49583-9a3rdm clean
+
+current directory: /Users/ty/Documents/repo/Ruby/rails6sample/rails6App/vender/bundle/ruby/3.2.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20240304-49583-9a3rdm sitelibdir\=./.gem.20240304-49583-9a3rdm
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+ld: warning: ignoring duplicate libraries: '-lruby.3.2'
+
+current directory: /Users/ty/Documents/repo/Ruby/rails6sample/rails6App/vender/bundle/ruby/3.2.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20240304-49583-9a3rdm sitelibdir\=./.gem.20240304-49583-9a3rdm install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20240304-49583-9a3rdm/skiptrace/internal
+
+current directory: /Users/ty/Documents/repo/Ruby/rails6sample/rails6App/vender/bundle/ruby/3.2.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20240304-49583-9a3rdm sitelibdir\=./.gem.20240304-49583-9a3rdm clean
