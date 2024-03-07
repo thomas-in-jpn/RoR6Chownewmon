@@ -21,7 +21,7 @@ class PeopleController < ApplicationController
       redirect_to '/people'
     else
       @msg = '入力に問題があります。'
-      render: 'add'
+      render 'add'
     end
   end
 
