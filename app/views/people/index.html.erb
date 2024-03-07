@@ -5,6 +5,8 @@
   <tr>
     <th>Id</th>
     <th>Name</th>
+    <th>Age</th>
+    <th>Mail</th>
     <th>U/D</th>
   </tr>
   <% @data.each do |obj| %>
@@ -12,12 +14,14 @@
       <td><%= obj.id %></td>
       <td><a href="/people/<%= obj.id %>">
           <%= obj.name %></a></td>
-      <td><a href="/people/edit/<%= obj.id %>">
-          Edit</a>&nbsp;&nbsp;
-        <a href="javascript:delData(<%= obj.id %>,'<%= obj.name %>');">
-          Delete</a></td>
-    </tr>
-  <% end %>
+      <td><%= obj.age %></a></td>
+    <td><%= obj.mail %></a></td>
+  <td><a href="/people/edit/<%= obj.id %>">
+      Edit</a>&nbsp;&nbsp;
+    <a href="javascript:delData(<%= obj.id %>,'<%= obj.name %>');">
+      Delete</a></td>
+</tr>
+<% end %>
 </table>
 <script>
   function delData(num,name){
